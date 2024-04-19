@@ -29,7 +29,7 @@
         integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="test.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/17e7e77638.js" crossorigin="anonymous"></script>
     <!-- Favicon -->
@@ -37,54 +37,62 @@
 </head>
 
 <body>
+    <!------------>
     <!-- Navbar -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" style="opacity: 1" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+    <!------------>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" style="opacity: 1" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <!-- <li><a class="nav-link" href="#services">Pricing</a></li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
+
+    <!------------------>
     <!-- Hero Section -->
-    <main>
-        <section class="hero d-flex align-items-center">
-            <div class="container text-center animated-element" data-aos="fade-up" data-aos-duration="1000">
-                <!-- Keep the rest of your content here -->
+    <!------------------>
+    <section class="hero d-flex align-items-center">
+        <div class="hero-bg"></div> <!-- Background image -->
+        <div class="container text-center">
+            <div class="card-container">
                 <div class="hero-img-container">
                     <img class="hero-img pt-3" src="assets/img/logo.png" alt="Alnwick Oven Cleaning Logo">
                 </div>
-                <!-- <h1 class="display-5 fw-bold pt-1 pb-1">A muted slogan</h1> -->
                 <p class="lead mb-2 pb-2 px-2">Serving Northumberland from Berwick to Morpeth.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center custom-btn-group pt-2">
-                    <a href="#services" class=" btn hero-services-btn px-4 m-0">Our Services</a>
-                    <a href="#contact" class=" btn btn-outline-secondary hero-contact-btn px-4 m-0">Contact Us</a>
+                    <a href="#services" class="btn hero-services-btn px-4 m-0">Our Services</a>
+                    <a href="#contact" class="btn btn-outline-secondary hero-contact-btn px-4 m-0">Contact Us</a>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
+
+
+
+    <!------------------->
     <!-- About Section -->
+    <!------------------->
     <section id="about" class="pt-5 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
         <div class="container">
             <h2 class="pb-2 border-bottom">About</h2>
@@ -106,15 +114,15 @@
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services pt-2">
-        <div class="container" data-aos="fade-up">
+        <div id="services" class="container" data-aos="fade-up">
             <div class="text-center pt-2">
                 <h2 class="border-bottom pb-2">Services</h2>
                 <p>
                     All services are
-                    bespoke and can be customized to suit your needs. Please contact
-                    us to discuss the service <strong> you </strong> require!
+                    bespoke and can be customised to suit your needs. Please contact
+                    me to discuss the service <strong> you </strong> require!
                 </p>
             </div>
 
@@ -162,24 +170,23 @@
             </div>
         </div>
     </section>
+    <!-- End Services Section -->
 
-    <!-- Testimonials Section -->
+    <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials pt-2 mt-4">
         <div class="container" data-aos="fade-up">
             <div class="text-center">
                 <h2>Testimonials</h2>
-                <p>Below is some of the lovely feedback we have received.</p>
+                <p>Below is some of the lovely feedback I have received.</p>
             </div>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
-                    <!-- Testimonial items -->
-                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Impressed with the service provided by Alnwick Oven Cleaning. They were professional,
+                                Impressed with the service provided by David. He was professional,
                                 efficient, and the results were outstanding. Will 100% use them again!
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
@@ -190,12 +197,11 @@
                     </div>
                     <!-- End testimonial item -->
 
-                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Absolutely fantastic service from Alnwick Oven Cleaning. They were lovely and our oven
+                                Absolutely fantastic service from Alnwick Oven Cleaning. David was lovely and our oven
                                 looks brand new.
                                 Highly recommended!
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
@@ -205,12 +211,11 @@
                         </div>
                     </div>
                     <!-- End testimonial item -->
-                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Incredible service from Alnwick Oven Cleaning! They were punctual, friendly, and
+                                Incredible service from Alnwick Oven Cleaning! David was punctual, friendly, and
                                 left our oven sparkling clean. Definitely using them again.
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
@@ -221,12 +226,11 @@
 
                     <!-- End testimonial item -->
 
-                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Alnwick Oven Cleaning provided an excellent service! They were very nice and
+                                Alnwick Oven Cleaning provided an excellent service! David was very nice and
                                 our oven looks brand new. Couldn't be happier with the result.
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
@@ -237,12 +241,11 @@
 
                     <!-- End testimonial item -->
 
-                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                We can't recommend Alnwick Oven Cleaning enough. They were friendly, efficient, and the
+                                I can't recommend David enough. He was friendly, efficient, and the
                                 results exceeded our expectations. Our oven looks brand new!
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
@@ -265,9 +268,9 @@
         <div class="row py-lg-5" data-aos="flip-up" data-aos-duration="1000">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Gallery</h1>
-                <p>Some pictures from some of the jobs we have done in the past.</p>
+                <p>Some pictures from some of the jobs I have done in the past.</p>
                 <p>
-                    <a href="#contact" class="btn btn-primary my-2">Contact Us</a>
+                    <a href="#contact" class="btn btn-primary my-2">Contact David</a>
 
                 </p>
             </div>
@@ -292,7 +295,7 @@
                         <img src="assets/img/oven2.png" class="bd-placeholder-img card-img-top custom-card-img"
                             alt="Oven cleaning in action">
                         <div class="card-body">
-                            <p class="card-text text-center">We are not shy getting into every nook and cranny! With
+                            <p class="card-text text-center">David is not shy getting into every nook and cranny! With
                                 expertise in
                                 all ovens and
                                 AGAs.</p>
@@ -305,7 +308,7 @@
                             alt="Oven cleaning in action"">
             <div class=" card-body">
                         <p class="card-text text-center">Eco-friendly, biodegradable products with no
-                            fumes or odors.</p>
+                            fumes or odours.</p>
                     </div>
                 </div>
             </div>
@@ -313,12 +316,12 @@
     </div>
     </div>
 
-    <!-- End Portfolio Section -->
+
 
     <!--------------------->
     <!-- Contact Section -->
     <!--------------------->
-    <section id="contact" class="pt-5 pb-2">
+    <section id="contact" class="pt-2 pb-2">
         <div class="container">
             <h2 class="pb-2 border-bottom text-center text-md-left" data-aos="fade-down" data-aos-duration="1000">
                 Contact Us
@@ -376,10 +379,10 @@
                             <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241085394175359'", "https://form.jotform.com/")</script>
 
                             <button id="closeFormBtn" class="close-form-btn" title="Close Form">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-x" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                    class="bi bi-x-circle-fill" viewBox="0 0 16 16">
                                     <path
-                                        d="M9.354 8l3.293-3.293a1 1 0 0 0-1.414-1.414L8 6.586 4.707 3.293a1 1 0 1 0-1.414 1.414L6.586 8l-3.293 3.293a1 1 0 1 0 1.414 1.414L8 9.414l3.293 3.293a1 1 0 0 0 1.414-1.414L9.414 8z" />
+                                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm3.354 4.646a.5.5 0 0 0-.708 0L8 7.293 5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 1 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0 0-.708z" />
                                 </svg>
                             </button>
                         </div>
@@ -387,12 +390,17 @@
                 </div>
             </div>
 
+
+
         </div>
     </section>
 
-    <!-------------------------------------->
-    <!-- Footer Section with Social Links -->
-    <!-------------------------------------->
+
+
+
+    <!------------>
+    <!-- Footer -->
+    <!------------>
     <footer class="text-center pt-2 pb-4 custom-footer">
         <div class="container">
             <hr class="divider">
@@ -402,7 +410,7 @@
                     target="_blank"><i class="fab fa-facebook-f"></i></a>
 
                 <!-- <a href="#" class="social-button"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-button"><i class="fab fa-instagram"></i></a> -->
+        <a href="#" class="social-button"><i class="fab fa-instagram"></i></a> -->
             </div>
 
             <p>&copy; 2024. Website built by <a href="https://www.alnwickwebdesign.co.uk/" target="_blank">Alnwick Web
@@ -421,6 +429,7 @@
                 d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
         </svg>
     </a>
+
 
     <!------------->
     <!-- Scripts -->
