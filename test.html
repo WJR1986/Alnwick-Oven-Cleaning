@@ -4,7 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Website</title>
+    <title>Alnwick Oven Cleaning</title>
+    <!-- Add meta tags for SEO -->
+    <meta name="description"
+        content="Alnwick Oven Cleaning provides reliable, eco-friendly oven cleaning services in Northumberland.">
+    <meta name="keywords" content="oven cleaning, Northumberland, eco-friendly, Alnwick Oven Cleaning">
+    <!-- Add Open Graph tags -->
+    <meta property="og:title" content="Alnwick Oven Cleaning">
+    <meta property="og:description"
+        content="Alnwick Oven Cleaning provides reliable, eco-friendly oven cleaning services in Northumberland.">
+    <meta property="og:image" content="assets/img/logo.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -20,7 +29,7 @@
         integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="test2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/17e7e77638.js" crossorigin="anonymous"></script>
     <!-- Favicon -->
@@ -28,59 +37,54 @@
 </head>
 
 <body>
-    <!------------>
     <!-- Navbar -->
-    <!------------>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" style="opacity: 1" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" style="opacity: 1" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-
-    <!------------------>
     <!-- Hero Section -->
-    <!------------------>
-    <section class="hero d-flex align-items-center">
-        <div class="container text-center animated-element" data-aos="fade-up" data-aos-duration="1000">
-            <!-- Keep the rest of your content here -->
-            <div class="hero-img-container">
-                <img class="hero-img pt-3" src="assets/img/Oven cleaning White Vector v2.png" alt="">
+    <main>
+        <section class="hero d-flex align-items-center">
+            <div class="container text-center animated-element" data-aos="fade-up" data-aos-duration="1000">
+                <!-- Keep the rest of your content here -->
+                <div class="hero-img-container">
+                    <img class="hero-img pt-3" src="assets/img/logo.png" alt="Alnwick Oven Cleaning Logo">
+                </div>
+                <!-- <h1 class="display-5 fw-bold pt-1 pb-1">A muted slogan</h1> -->
+                <p class="lead mb-2 pb-2 px-2">Serving Northumberland from Berwick to Morpeth.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center custom-btn-group pt-2">
+                    <a href="#services" class=" btn hero-services-btn px-4 m-0">Our Services</a>
+                    <a href="#contact" class=" btn btn-outline-secondary hero-contact-btn px-4 m-0">Contact Us</a>
+                </div>
             </div>
-            <!-- <h1 class="display-5 fw-bold pt-1 pb-1">A muted slogan</h1> -->
-            <p class="lead mb-2 pb-2 px-2">Serving Northumberland from Berwick to Morpeth.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center custom-btn-group pt-2">
-                <button type="button" class="btn btn-primary px-4 m-0">Our Services</button>
-                <button type="button" class="btn btn-outline-secondary px-4 m-0">Contact Us</button>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-
-    <!------------------->
     <!-- About Section -->
-    <!------------------->
     <section id="about" class="pt-5 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
         <div class="container">
             <h2 class="pb-2 border-bottom">About</h2>
@@ -93,7 +97,7 @@
 
                 <p> We only use eco-friendly, biodegradable products, specifically developed for the process, that are
                     100%
-                    safe with no fumes or odours, and your oven is ready to use as soon as we finish. Never be
+                    safe with no fumes or odours. Your oven is ready to use as soon as we finish. Never be
                     embarrassed,
                     as we say, “the dirtier, the better!”.</p>
 
@@ -102,16 +106,15 @@
         </div>
     </section>
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing pt-4">
+    <!-- Services Section -->
+    <section id="services" class="services pt-2">
         <div class="container" data-aos="fade-up">
             <div class="text-center pt-2">
-                <h2 class="border-bottom pb-3">Services</h2>
+                <h2 class="border-bottom pb-2">Services</h2>
                 <p>
-                    Our prices vary depending on the condition of oven/appliance and bulk bookings
-                    made in advance. All services are
-                    bespoke and can be customised to suit your needs. Please contact
-                    me to discuss the service <em>YOU</em> require!
+                    All services are
+                    bespoke and can be customized to suit your needs. Please contact
+                    us to discuss the service <strong> you </strong> require!
                 </p>
             </div>
 
@@ -121,8 +124,8 @@
                         <h3>Oven
                             Cleaning</h3>
                         <p>Prices start at:</p>
-                        <h4><sup>£</sup>50<span> / Single Oven</span></h4>
-                        <h4><sup>£</sup>50<span> / Double Oven</span></h4>
+                        <h4><sup>£</sup>55<span> / Single Oven</span></h4>
+                        <h4><sup>£</sup>65<span> / Double Oven</span></h4>
 
                         <div class="btn-wrap">
                             <a href="#contact" class="btn-buy">Contact Us</a>
@@ -130,12 +133,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 services-mob-padding" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box featured">
                         <h3>Range &
                             AGA</h3>
                         <p>Prices start at:</p>
-                        <h4><sup>£</sup>85<span> / Range</span></h4>
+                        <h4><sup>£</sup>90<span> / Range</span></h4>
                         <h4><sup>£</sup>90<span> / AGA</span></h4>
 
                         <div class="btn-wrap">
@@ -144,12 +147,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 " data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 services-mob-padding" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
                         <h3>Microwaves & Extractors</h3>
                         <p>Prices start at:</p>
                         <h4><sup>£</sup>15<span> / Microwave</span></h4>
-                        <h4><sup>£</sup>20<span> / Extractor</span></h4>
+                        <h4><sup>£</sup>25<span> / Extractor</span></h4>
 
                         <div class="btn-wrap">
                             <a href="#contact" class="btn-buy">Contact Us</a>
@@ -159,56 +162,58 @@
             </div>
         </div>
     </section>
-    <!-- End Pricing Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials pt-4">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials pt-2 mt-4">
         <div class="container" data-aos="fade-up">
             <div class="text-center">
                 <h2>Testimonials</h2>
-                <p>Below is some of the lovely feedback I have received!</p>
+                <p>Below is some of the lovely feedback we have received.</p>
             </div>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
+                    <!-- Testimonial items -->
+                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Impressed with the service provided by David. He was professional,
+                                Impressed with the service provided by Alnwick Oven Cleaning. They were professional,
                                 efficient, and the results were outstanding. Will 100% use them again!
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/mark-kitchen.jpg" class="testimonial-img" alt="" />
+
                             <h3>Sarah</h3>
                             <h4>Rothbury</h4>
                         </div>
                     </div>
                     <!-- End testimonial item -->
 
+                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Absolutely fantastic service from Alnwick Oven Cleaning! David was thorough,
-                                professional, and our oven looks brand new. Highly recommended!
+                                Absolutely fantastic service from Alnwick Oven Cleaning. They were lovely and our oven
+                                looks brand new.
+                                Highly recommended!
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/emma-cooking.jpg" class="testimonial-img" alt="" />
                             <h3>Dawn</h3>
                             <h4>Alnwick</h4>
                         </div>
                     </div>
                     <!-- End testimonial item -->
+                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Incredible service from Alnwick Oven Cleaning! David was punctual, friendly, and
-                                left our oven sparkling clean. Definitely using them again!
+                                Incredible service from Alnwick Oven Cleaning! They were punctual, friendly, and
+                                left our oven sparkling clean. Definitely using them again.
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/sarah-oven.jpg" class="testimonial-img" alt="" />
                             <h3>Tom</h3>
                             <h4>Morpeth</h4>
                         </div>
@@ -216,15 +221,15 @@
 
                     <!-- End testimonial item -->
 
+                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                Alnwick Oven Cleaning provided excellent service! David was polite, professional, and
-                                our oven looks brand new. Couldn't be happier with the result!
+                                Alnwick Oven Cleaning provided an excellent service! They were very nice and
+                                our oven looks brand new. Couldn't be happier with the result.
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/peter-cooking.jpg" class="testimonial-img" alt="" />
                             <h3>Lucy</h3>
                             <h4>Wooler</h4>
                         </div>
@@ -232,15 +237,15 @@
 
                     <!-- End testimonial item -->
 
+                    <!-- Updated testimonial content to reflect "we" instead of "David" -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
                                 <i class="fa-solid fa-quote-left quote-icon-left"></i>
-                                I can't recommend David enough! He was friendly, efficient, and the
+                                We can't recommend Alnwick Oven Cleaning enough. They were friendly, efficient, and the
                                 results exceeded our expectations. Our oven looks brand new!
                                 <i class="fa-solid fa-quote-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/lisa-baking.jpg" class="testimonial-img" alt="" />
                             <h3>James</h3>
                             <h4>Berwick-upon-Tweed</h4>
                         </div>
@@ -256,15 +261,13 @@
     <!----------------------->
     <!-- Portfolio Section -->
     <!----------------------->
-    <section id="portfolio" class="pt-5 pb-2 text-center container">
+    <section id="portfolio" class="pt-2 pb-2 mt-0 text-center container">
         <div class="row py-lg-5" data-aos="flip-up" data-aos-duration="1000">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Previous Work</h1>
-                <p class="lead">Something short and leading about the collection below—its contents,
-                    the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                    entirely.</p>
+                <h1 class="fw-light">Gallery</h1>
+                <p>Some pictures from some of the jobs we have done in the past.</p>
                 <p>
-                    <a href="#" class="btn btn-primary my-2">Contact David</a>
+                    <a href="#contact" class="btn btn-primary my-2">Contact Us</a>
 
                 </p>
             </div>
@@ -273,65 +276,49 @@
 
     <div class="album pb-5 pt-0">
         <div class="container">
-
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-aos="fade-right" data-aos-duration="1000">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em" text-anchor="middle">Thumbnail</text>
-                        </svg>
+                        <img src="assets/img/oven1.png" class="bd-placeholder-img card-img-top custom-card-img"
+                            alt="Oven cleaning in action">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-
+                            <p class="card-text text-center">We have commercial customers where we clean property lets
+                                etc.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em" text-anchor="middle">Thumbnail</text>
-                        </svg>
+                        <img src="assets/img/oven2.png" class="bd-placeholder-img card-img-top custom-card-img"
+                            alt="Oven cleaning in action">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-
+                            <p class="card-text text-center">We are not shy getting into every nook and cranny! With
+                                expertise in
+                                all ovens and
+                                AGAs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em" text-anchor="middle">Thumbnail</text>
-                        </svg>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-
-                        </div>
+                        <img src="assets/img/oven3.png" class="bd-placeholder-img card-img-top custom-card-img"
+                            alt="Oven cleaning in action"">
+            <div class=" card-body">
+                        <p class="card-text text-center">Eco-friendly, biodegradable products with no
+                            fumes or odors.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
 
+    <!-- End Portfolio Section -->
 
     <!--------------------->
     <!-- Contact Section -->
     <!--------------------->
-    <section id="contact" class="pt-5 pb-5">
+    <section id="contact" class="pt-5 pb-2">
         <div class="container">
             <h2 class="pb-2 border-bottom text-center text-md-left" data-aos="fade-down" data-aos-duration="1000">
                 Contact Us
@@ -340,10 +327,10 @@
             <div class="row justify-content-center pb-2 pt-2" data-aos="fade-down" data-aos-duration="1000">
                 <!-- Contact information -->
                 <div class="col-md-4 text-center">
-                    <p class="lead"><i class="bi bi-telephone-fill"></i> 07488 315 367</p>
+                    <p class="lead"><i class="bi bi-telephone-fill"></i> 07711806335</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <p class="lead"><i class="bi bi-envelope-fill"></i> alnwickwebdesign@gmail.com</p>
+                    <p class="lead"><i class="bi bi-envelope-fill"></i> alnwickovencleaning@gmail.com</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <p class="lead"><i class="bi bi-geo-fill"></i> Alnwick, Northumberland</p>
@@ -378,17 +365,21 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="iframe-container" id="iframeContainer" style="position: relative;">
-                            <iframe id="JotFormIFrame-241073524145348" title="AWC Contact Form"
+
+                            <iframe id="JotFormIFrame-241085394175359" title="Alnwick Oven Cleaning Contact Form"
                                 onload="window.parent.scrollTo(0,0)" allowtransparency="true"
                                 allow="geolocation; microphone; camera; fullscreen"
-                                src="https://form.jotform.com/241073524145348" frameborder="0"
-                                style="min-width:100%;max-width:100%;height:750px;border:none;" scrolling="no">
+                                src="https://form.jotform.com/241085394175359" frameborder="0"
+                                style="min-width:100%;max-width:100%;height:539px;border:none;" scrolling="no">
                             </iframe>
+                            <script src='https://form.jotform.com/s/umd/latest/for-form-embed-handler.js'></script>
+                            <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241085394175359'", "https://form.jotform.com/")</script>
+
                             <button id="closeFormBtn" class="close-form-btn" title="Close Form">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
-                                    class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-x" viewBox="0 0 16 16">
                                     <path
-                                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm3.354 4.646a.5.5 0 0 0-.708 0L8 7.293 5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 1 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0 0-.708z" />
+                                        d="M9.354 8l3.293-3.293a1 1 0 0 0-1.414-1.414L8 6.586 4.707 3.293a1 1 0 1 0-1.414 1.414L6.586 8l-3.293 3.293a1 1 0 1 0 1.414 1.414L8 9.414l3.293 3.293a1 1 0 0 0 1.414-1.414L9.414 8z" />
                                 </svg>
                             </button>
                         </div>
@@ -396,26 +387,27 @@
                 </div>
             </div>
 
-
-
         </div>
     </section>
 
-
-
-
-    <!------------>
-    <!-- Footer -->
-    <!------------>
-    <footer class="text-center py-2 custom-footer">
+    <!-------------------------------------->
+    <!-- Footer Section with Social Links -->
+    <!-------------------------------------->
+    <footer class="text-center pt-2 pb-4 custom-footer">
         <div class="container">
-            <p>&copy; 2024. Website built by Will @ Alnwick Web Design.</p>
             <hr class="divider">
             <div class="social-buttons">
-                <a href="#" class="social-button"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-button"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-button"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="https://www.facebook.com/p/Alnwick-Oven-Cleaning-100075706427532/" class="social-button"></a> -->
+                <a href="https://www.facebook.com/p/Alnwick-Oven-Cleaning-100075706427532/" class="social-button"
+                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- <a href="#" class="social-button"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-button"><i class="fab fa-instagram"></i></a> -->
             </div>
+
+            <p>&copy; 2024. Website built by <a href="https://www.alnwickwebdesign.co.uk/" target="_blank">Alnwick Web
+                    Design.</a></p>
+
         </div>
     </footer>
 
@@ -429,7 +421,6 @@
                 d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
         </svg>
     </a>
-
 
     <!------------->
     <!-- Scripts -->
