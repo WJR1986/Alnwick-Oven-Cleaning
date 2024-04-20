@@ -270,7 +270,7 @@ h6 {
 }
 
 .hero-bg {
-  background-image: url("assets/img/Bubbles.svg");
+  background-image: url("/assets/img/Bubbles.svg");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -655,6 +655,25 @@ section {
   background-color: #003c43;
   color: #c4dfdf;
 } */
+
+.additional-text {
+  position: absolute;
+  top: 10px; /* Adjust top padding as needed */
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.additional-text-content {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust background color and opacity as needed */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
 
 #portfolio .album {
   background-color: #003c43 !important;

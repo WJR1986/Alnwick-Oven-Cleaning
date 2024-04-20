@@ -29,7 +29,7 @@
     integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/17e7e77638.js" crossorigin="anonymous"></script>
   <!-- Favicon -->
@@ -56,7 +56,7 @@
             <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <!-- <li><a class="nav-link" href="#services">Pricing</a></li> -->
           <li class="nav-item">
@@ -270,7 +270,7 @@
         <h1 class="fw-light">Gallery</h1>
         <p>Some pictures from some of the jobs I have done in the past.</p>
         <p>
-          <a href="#contact" class="btn btn-primary my-2">Contact David</a>
+          <a href="portfolio.html" class="btn btn-primary my-2">See more photos!</a>
 
         </p>
       </div>
@@ -279,41 +279,43 @@
 
   <div class="album pb-5 pt-0">
     <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-aos="fade-right" data-aos-duration="1000">
-        <div class="col">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3" data-aos="fade-right" data-aos-duration="1000">
+        <!-- Change row-cols-md-3 to row-cols-md-2 -->
+        <div class="col position-relative mx-auto text-center">
           <div class="card shadow-sm">
-            <img src="assets/img/oven1.png" class="bd-placeholder-img card-img-top custom-card-img"
+            <img src="assets/img/portfolio/before1.jpg" class="bd-placeholder-img card-img-top custom-card-img"
               alt="Oven cleaning in action">
             <div class="card-body">
-              <p class="card-text text-center">We have commercial customers where we clean property lets
-                etc.</p>
+              <!-- Additional text with background color -->
+              <div class="additional-text">
+                <div class="additional-text-content">
+                  <h3 class="card-text text-center">Before.</h3>
+                </div>
+              </div>
+              <!-- Original text -->
+              <p class="card-text text-center">Never worry about how your dirty you oven is...</p>
             </div>
           </div>
         </div>
-        <div class="col">
+
+        <div class="col position-relative mx-auto text-center">
           <div class="card shadow-sm">
-            <img src="assets/img/oven2.png" class="bd-placeholder-img card-img-top custom-card-img"
+            <img src="assets/img/portfolio/after1.jpg" class="bd-placeholder-img card-img-top custom-card-img"
               alt="Oven cleaning in action">
             <div class="card-body">
-              <p class="card-text text-center">David is not shy getting into every nook and cranny! With
-                expertise in
-                all ovens and
-                AGAs.</p>
+              <!-- Additional text with background color -->
+              <div class="additional-text">
+                <div class="additional-text-content">
+                  <h3 class="card-text text-center">After.</h3>
+                </div>
+              </div>
+              <!-- Original text -->
+              <p class="card-text text-center">...David is not shy getting into every nook and cranny! </p>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="assets/img/oven3.png" class="bd-placeholder-img card-img-top custom-card-img"
-              alt="Oven cleaning in action"">
-            <div class=" card-body">
-            <p class="card-text text-center">Eco-friendly, biodegradable products with no
-              fumes or odours.</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 
 
