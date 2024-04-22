@@ -1,3 +1,9 @@
+/* .bubbles {
+  background-image: url("/assets/img/Bubbles.svg") !important;
+  background-size: cover;
+  background-position: center;
+} */
+
 .card-img-top-portfolio {
   padding-top: 40px;
   max-height: 400px; /* Set the desired height */
